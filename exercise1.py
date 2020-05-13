@@ -12,5 +12,3 @@ def house_model(y_new):
    return (model.predict(y_new)[0]+1) //100
 prediction = house_model([7.0])
 print(prediction)
-
-
